@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat -ano)",
+      "Bash(tasklist /FI \"PID eq 11360\")",
+      "Bash(powershell *)",
+      "Bash(ls -la C:/wamp64/www/Symfony/Tauri/my-tauri-app/.env*)",
+      "Bash(cargo tauri *)",
+      "Bash(npx tauri *)",
+      "Bash(cargo check *)",
+      "Bash(npm run *)",
+      "Bash(npm install *)",
+      "Bash(npm list *)"
+    ]
+  }
+}

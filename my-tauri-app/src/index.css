@@ -1,0 +1,6 @@
+/* Délégué à App.css — uniquement le strict minimum ici */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}

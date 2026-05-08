@@ -1,0 +1,76 @@
+
+
+===== PAGE 1 =====
+
+
+===== PAGE 2 =====
+Contexte
+Nomdel'entreprise: WorkTogetherDataSolutions
+Secteurd'activité: Gestiondedatacentersetservicesdelocationdebaies
+Présentationdel'entreprise
+WorkTogether Data Solutions est une entreprise spécialisée dans la gestion de datacenters depointe. Fortedesonexpertiseenmatièredesécurité,defiabilitéetdedurabilité,WorkTogetheroffre une gamme complète de services de gestion de datacenters aux entreprises du mondeentier. Son objectif principal est de permettre à ses clients de se concentrer sur leur c œ ur demétier tout engarantissant ladisponibilité, laperformanceetlasécuritédeleursinfrastructuresinformatiques.
+Servicedelocationdebaies
+WorkTogether DataSolutions souhaiteélargirsesservicesenintroduisantunnouveauservicedelocation de baies. Cette offre permettraaux clients delouer del'espacedans ses datacenterspour y héberger leurs équipements informatiques. En louant une baie, leurs clientsbénéficieront de la connectivité ultrarapide, de la redondance électrique et de la sécuritéphysiqueetélectroniquedeleursinstallations.
+2
+
+
+===== PAGE 3 =====
+ImpactduCOVID-19
+LapandémiedeCOVID-19aeuunimpactsignificatifsurl'industriedelagestiondedatacentersetainfluencéladécisiondeWorkTogetherDataSolutionsdeproposerleservicedelocationdebaies.
+DemandecroissantepourlaflexibilitéAvec la pandémie, de nombreuses entreprises ont été contraintes de revoir leursmodèles de travail. Le télétravail est devenu lanorme, cequi aaccrulademandepourdes solutions informatiques flexibles. Les entreprises ont besoin d'optionsd'hébergement plus agiles pour leurs infrastructures, car elles ne peuvent plus sepermettred'investirmassivementdansdesdatacentersinternes.
+Conscienceaccruedelacontinuitéd'activitéLe COVID-19 a mis en évidence l'importancecrucialedelacontinuitéd'activitéet delarésilience des infrastructures informatiques. Les entreprises sont désormais plusconscientes des risques et cherchent des solutions de secours hors site pour leursdonnéesetleursapplications.
+RationalisationdescoûtsDe nombreuses entreprises ont étécontraintes deréduireleurs dépenses enraisondesincertitudeséconomiquesliéesàlapandémie.Lalocationdebaiepermetauxentreprisesde réduire leurs coûts en évitant les investissements initiaux élevés associés à laconstructionetàlagestiondedatacentersinternes.
+SécuritérenforcéeLa sécurité est devenue une préoccupation majeure, car le nombre d'attaquesinformatiques a augmenté pendant la pandémie. WorkTogether Data Solutions investitmassivement dans lasécuritédeses installations pour répondreàcespréoccupationsetgarantirlaprotectiondesdonnéessensiblesdesesclients.
+Enrésumé, leCOVID-19aaccélérélademandedesolutions degestiondedatacentersflexibles,résilientes et économiques, cequi aincitéWorkTogether DataSolutions àlancer sonservicedelocation de baies pour répondre aux besoins changeants des entreprises dans ce contexte depandémie.
+3
+
+
+===== PAGE 4 =====
+Businessmodelsimplifié
+WorkTogether Data Solutions vient d'acquérir 30 baies de datacenter, numérotées de B001 àB030,pourlesmettreàdispositiondesesclients.
+Unebaiestandarddans uncentrededonnéesestunéquipementessentiel pour l'hébergement de serveurs, de commutateurs, derouteurs et d'autres équipements informatiques. Elle est conçuepour optimiser l'utilisationdel'espace, lagestiondes câbles et ladissipationthermiquetout enoffrant unesécuritéphysiquepourleséquipements.
+Unebaiestandardde42Uest unespacephysiquedansuncentrede données conçu pour héberger divers équipementsinformatiques, avec des caractéristiques spécifiques pour assurerune gestion efficace de l'espace, du câblage et de la sécurité.Chaque “U” représente une unité de hauteur standard de 1,75pouce (44,45 mm), et une baie de 42U mesure environ 73,5pouces(1867mm)dehauteurtotale.
+Les unités de hauteur “U” sont numérotées de manièreascendante à partir du bas de la baie, allant de U01 jusqu'à lahauteur totaledelabaie.Ainsi,l'unitédubasestnumérotéeU01,la suivante U02, puis U03, et ainsi de suite jusqu'à atteindre lahauteurtotaledelabaie.
+L'objectif est de proposer des locations flexibles debaies complètes, dedemi-baies, dequartdebaieoud'unitésindividuelles“U”.
+4
+
+
+===== PAGE 5 =====
+Premièresituationprofessionnelle
+Fonctionnalités
+WorkTogether Data Solutions souhaite développer une application de gestion dédiée à sonpersonnel qui permet, aprèsauthentificationde:
+■ AdministrateurGérerlesutilisateursdel’applicationbaséssurunehiérarchiederôlesUnutilisateurpossèdeunrôle: Administrateur>Comptable■ AdministrateurGérerlesstocksdebaies■ AdministrateurGérerlesoffrescommerciales■ ComptableConsulterlalistedesclients■ ComptableConsulterlalistedesréservations
+La sécurité des données des clients doit être une priorité, avecdes mécanismes deprotectiondesinformationspersonnellesetfinancières.
+Exempled’offrescommercialesdumoment
+Offre Base Start-up PME Entreprise
+Nombred’unités 1unité 10unités 21unités 42unités
+Prixmensuel 100€ 900€(-10%) 1680€(-20%) 2940€(-30%)
+Prixannuel -10%supplémentaires
+Fonctionnalitésoptionnelles
+Proposerunmoduledereportingsavancés:
+■ ComptableRapportmensuel desréservationsRécapitulatif des réservations effectuées par mois avec le nombre de réservations paroffreettotalainsiquelechiffred'affairesparoffreettotal.■ ComptableRapportd'occupationdesbaiesVisualisation graphique de l'occupation des baies au fil du temps. Cela peut aider àidentifierlespériodescreusesetdepointeetàajusterlesoffrescommerciales.
+5
+
+===== PAGE 6 =====
+Secondesituationprofessionnelle
+Fonctionnalités
+WorkTogetherDataSolutionssouhaitedévelopperunsiteinternetqui permetde:
+■ Présentersasociétéetsonactivité■ Présentersesoffrescommerciales■ PassercommandeNécessitelacréationd’uncompteClient■ ClientAccéderàsonespace- Gérersesdonnéespersonnelles- Gérersesinformationsdeconnexion- Gérersescommandes- GérersesunitésVoir sonemplacement dans ledatacenter (B014-U06) et sonétat (OK/incident/maintenance), lui définir un nom et type qui sera associé à une couleur (parexemple: serveurwebenbleu, basededonnéesenvert, stockageengris, … ), etc.
+WorkTogether DataSolutions souhaiteégalement développer uneAPI dédiéeàses clientsquipermet, aprèsauthentificationd’obtenir:
+■ ClientL’étatentempsréel desesunitésEn effet, WorkTogether est responsable de l'électrification, la connectivité, laclimatisation,etc.■ ClientL’historiquedesinterventionsHistorique des interventions avec informations complémentaires : type (incident /maintenance),description,date/heuredébutetfin,unité(s)affectée(s),etc.
+Fonctionnalitésoptionnelles
+Denombreusesidéesontétéimaginéespourenrichirl’expérienceutilisateur.
+■ SupportmultilingueTraduirelesiteenplusieurslanguespourattireruneclientèleàl’international.■ CentrederessourcesMettre à disposition des documents utiles, des FAQ et des ressources pour aider unprospect/clientàmieuxcomprendrelesservicesetlimiterlesupport.■ ClientAuthentificationrenforcéeMettre en place un système de sécurité robuste avec une authentification à deuxfacteurs.■ ClientDemandedesupportIntégrer un système de tickets pour permettre à un client de soumettre unedemanded'assistanceouposerunesimplequestion.■ ClientFeedbacketévaluationOffrir unmoyenauclient delaisser des commentaires sur leur expérienceetdenoterlaqualitédesservices.
+6
+
+===== PAGE 7 =====
+Annexe1
+Réflexionsdel’équipeprojet
+“Quel(s)système(s)depaiementproposerànosclients?”
+“Commentfacturerunclientquisouhaiteprofiterdelatarificationannuelle?”…
+…
+“Unclientpeut-ilcommanderplusieurspackàlafoisetdesdifférents?
+“Dansnotreoffrecommerciale, proposons-nousdescontratsàtacitereconductionounon?”
+“Commentattribuerlesunitésànosclientspouréviterlafragmentationdenosbaies?“
+…
+7
