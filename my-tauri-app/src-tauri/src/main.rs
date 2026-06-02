@@ -285,6 +285,13 @@ async fn main() {
   // S'assurer qu'un compte admin existe au premier lancement
   ensure_initial_admin(repo.clone()).await;
 
+  // Seed initial des 30 baies B001 → B030 (42U) si la table est vide
+  match repo.seed_initial_bays().await {
+    Ok(0) => {}
+    Ok(n) => eprintln!("[SEED] {n} baies initiales insérées (B001 → B030, 42U)"),
+    Err(e) => eprintln!("[SEED] Seed des baies ignoré : {e}"),
+  }
+
   let state = AppState::new(repo.clone());
 
   let app = Router::new()

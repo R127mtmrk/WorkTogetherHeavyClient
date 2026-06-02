@@ -91,6 +91,29 @@ impl Repo {
         Ok(())
     }
 
+    // Seed initial des baies du datacenter (B001 → B030, 42U chacune)
+    // Conforme au cahier des charges : "30 baies numérotées de B001 à B030".
+    // Idempotent : ne fait rien si au moins une baie existe déjà.
+    pub async fn seed_initial_bays(&self) -> Result<u32, sqlx::Error> {
+        let (count,): (i64,) = sqlx::query_as("SELECT COUNT(*) FROM bay")
+            .fetch_one(&self.pool)
+            .await?;
+        if count > 0 {
+            return Ok(0);
+        }
+
+        let mut inserted: u32 = 0;
+        for n in 1..=30 {
+            let name = format!("B{:03}", n);
+            sqlx::query("INSERT INTO bay (name_bay, units_total, units_free) VALUES (?, 42, 42)")
+                .bind(&name)
+                .execute(&self.pool)
+                .await?;
+            inserted += 1;
+        }
+        Ok(inserted)
+    }
+
     // Gestion baies
     pub async fn create_bay(&self, name: &str, units_total: i32) -> Result<i32, sqlx::Error> {
         let result = sqlx::query(
