@@ -227,20 +227,8 @@ async fn init_db_pool() -> sqlx::MySqlPool {
     return pool;
   }
 
-  // Échec — informer l'utilisateur et tenter de démarrer le service
-  tokio::task::spawn_blocking(|| {
-    show_dialog(
-      rfd::MessageLevel::Warning,
-      "WorkTogether — Démarrage de MySQL",
-      "MySQL n'est pas accessible.\n\nTentative de démarrage du service wampmysqld64…",
-    );
-  }).await.ok();
-
-  let _ = std::process::Command::new("net")
-    .args(["start", "wampmysqld64"])
-    .output();
-
-  // Retry pendant 30 secondes
+  // Retry pendant 30 secondes (le serveur peut mettre un instant à répondre,
+  // le réseau peut être momentanément indisponible).
   for _ in 0..15 {
     tokio::time::sleep(std::time::Duration::from_secs(2)).await;
     if let Ok(pool) = config::try_connect().await {
@@ -253,10 +241,11 @@ async fn init_db_pool() -> sqlx::MySqlPool {
     show_dialog(
       rfd::MessageLevel::Error,
       "WorkTogether — Erreur de connexion",
-      "Impossible de démarrer MySQL après 30 secondes.\n\n\
+      "Impossible de joindre la base de données.\n\n\
        Causes possibles :\n\
-       • Droits insuffisants — essayez « Exécuter en tant qu'administrateur »\n\
-       • WAMP n'est pas installé\n\
+       • Le serveur de base de données est éteint ou injoignable sur le réseau\n\
+       • L'identifiant, le mot de passe ou l'adresse (DATABASE_URL) sont incorrects\n\
+       • Le pare-feu bloque le port 3306\n\
        • La base de données « worktogether » n'existe pas\n\n\
        L'application va se fermer.",
     );

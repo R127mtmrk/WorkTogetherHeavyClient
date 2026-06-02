@@ -8,7 +8,8 @@ use std::path::PathBuf;
 /// Elle peut être surchargée par :
 ///  1. La variable d'environnement DATABASE_URL
 ///  2. Le fichier %APPDATA%\WorkTogether\config.env  (clé DATABASE_URL=...)
-const DEFAULT_DATABASE_URL: &str = "mysql://root:@localhost:3306/worktogether";
+const DEFAULT_DATABASE_URL: &str =
+    "mysql://wt_user:Wt%401234@10.192.72.20:3306/worktogether";
 
 fn read_config_file() -> Option<String> {
     // Cherche %APPDATA%\WorkTogether\config.env
